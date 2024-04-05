@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .first-word {
+        margin: 30px;
+    }
+
+    form {
+        width: 30%;
+        text-align: left;
+        margin: 20px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-div {
+        padding-left: 40px;
+        width: 100%;
+    }
+
+    .form-div div {
+       display: flex;
+       justify-content: end;
+       gap: 10px;
+    }
+
+    .form-div div {
+        width: 80%;
+        margin: 20px;
+    }
+
+    span {
+        text-decoration: underline;
+        font-weight: bold;
+
+    }
+
+    button {
+        margin: 30px;
+    }
+
+    .box {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #000;
+    }
+
+    label {
+        text-wrap: nowrap;
+    }
+
+</style>
+
+<body>
+    <h1>Contact Details</h1>
+
+    <div class="box">
+        <form action="">
+            <div class="first-word">Please enter your personal details:</div>
+            <div class="form-div">
+                <div>
+                    <Label><span>F</span>irst name: *</Label>
+                    <input type="text">
+                </div>
+                <div>
+                    <Label><span>L</span>ast name: *</Label>
+                    <input type="text">
+                </div>
+                <div>
+                    <Label>Stress <span>a</span>ddress:</Label>
+                    <input type="text">
+                </div>
+                <div>
+                    <Label><span>T</span>own/city:</Label>
+                    <input type="text">
+                </div>
+                <div>
+                    <Label>Post<span>c</span>ode/zip:</Label>
+                    <input type="text">
+                </div>
+                <div>
+                    <Label>Tele<span>p</span>hone</Label>
+                    <input type="number">
+                </div>
+                <div>
+                    <Label><span>M</span>obile: </Label>
+                    <input type="number">
+                </div>
+                <div>
+                    <Label><span>E</span>mail address:*</Label>
+                    <input type="email">
+                </div>
+            </div>
+        </form>
+        <div class="last-word">Fields marked * are required.</div>
+        <button><span>S</span>ubmit</button>
+    </div>
+
+</body>
+
+</html>
